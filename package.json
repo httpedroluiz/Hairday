@@ -3,7 +3,7 @@
   "description": "Aplicação WEB de agendamento para corte de cabelo.",
   "author": "Pedro Luiz",
   "scripts": {
-    "server": "json-server --watch server.json --port 3333",
+    "server": "json-server server.json --port 3333",
     "dev": "webpack serve",
     "build": "webpack"
   },
